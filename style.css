@@ -8,7 +8,7 @@
 }
 body {
   background-color: black;
-  width: 100vw;
+  width: 100rem;
   height: auto;
 }
 .container {
@@ -48,20 +48,12 @@ body {
   list-style: none;
 }
 .nav-link {
-  font-family: Poppins;
-  font-weight: 500;
-  font-size: .9375rem;
-  line-height: 100%;
-  letter-spacing: 0%;
   text-decoration: none;
-<<<<<<< HEAD
-=======
   font-family: Poppins;
   font-weight: 500;
   font-size: 0.9375rem;
   line-height: 100%;
   letter-spacing: 0%;
->>>>>>> e1badf8eb99a8b7ae03360ab18c13f7ad9c98a31
   color: #000000;
 }
 .user {
@@ -75,8 +67,6 @@ body {
   background: #54b8ff;
   color: #ffffff;
   padding: 0.3125rem 0.75rem;
-<<<<<<< HEAD
-=======
 }
 #login:hover {
   background: linear-gradient(
@@ -86,7 +76,6 @@ body {
     rgba(0, 212, 255, 1) 100%
   );
   transition: 5s;
->>>>>>> e1badf8eb99a8b7ae03360ab18c13f7ad9c98a31
 }
 .user-link {
   font-family: Poppins;
@@ -104,27 +93,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-<<<<<<< HEAD
-
-.hero-text{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  min-width: 44.375rem;
-  min-height: 25.375rem;
-  margin-left: 100px;
-  
-}
-.hero-btn{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 12.3125rem;
-  height: 3.5rem;
-  border-style: none;
-  background: linear-gradient(90deg, #54B8FF -1.36%, #54B8FF 105.62%);
-
-=======
 .hero-text {
   display: flex;
   flex-direction: column;
@@ -254,5 +222,4 @@ color: #04004D;
   line-height: 100%;
   letter-spacing: 0%;
   color: #898E92;  
->>>>>>> e1badf8eb99a8b7ae03360ab18c13f7ad9c98a31
 }
