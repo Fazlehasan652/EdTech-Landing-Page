@@ -54,6 +54,14 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   text-decoration: none;
+<<<<<<< HEAD
+=======
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+>>>>>>> e1badf8eb99a8b7ae03360ab18c13f7ad9c98a31
   color: #000000;
 }
 .user {
@@ -67,6 +75,18 @@ body {
   background: #54b8ff;
   color: #ffffff;
   padding: 0.3125rem 0.75rem;
+<<<<<<< HEAD
+=======
+}
+#login:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  transition: 5s;
+>>>>>>> e1badf8eb99a8b7ae03360ab18c13f7ad9c98a31
 }
 .user-link {
   font-family: Poppins;
@@ -84,6 +104,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
 
 .hero-text{
   display: flex;
@@ -103,4 +124,135 @@ body {
   border-style: none;
   background: linear-gradient(90deg, #54B8FF -1.36%, #54B8FF 105.62%);
 
+=======
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 400px;
+}
+.hero-btn {
+  display: flex;
+  width: 12.3125rem;
+  height: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  color: #ffffff;
+  background: linear-gradient(90deg, #54b8ff -1.36%, #54b8ff 105.62%);
+  border-style: none;
+}
+.hero-btn:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  transition: 5s;
+}
+.h4-title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 100%;
+  letter-spacing: 23.5%;
+  color: #2f2b71;
+}
+.h1-title {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 4.375rem;
+  line-height: 115.99999999999999%;
+  letter-spacing: 0%;
+  color: #5f596e;
+}
+.hero-para {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 156%;
+  letter-spacing: 5%;
+  color: #000000;
+}
+.h-btn-link {
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 104%;
+  letter-spacing: 10.5%;
+}
+.basic-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-info {
+  display: flex;
+  gap: 40px;
+}
+.basic-card{
+  display: flex;
+  flex-direction: column;
+  gap: .825rem;
+}
+.cong-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 14.125rem;
+  min-height: 4.375rem;
+  border-radius: .875rem;
+  background: #fffdfa;
+  box-shadow: 0px 7px 24px -2px rgba(0,0,0,0.48);
+  
+}
+.cong-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #3c50e0;
+  border-radius: 0.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: -45px;
+
+}
+#cong-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  background: #ffffff;
+  border-radius: 50%;
+  padding:1px; 
+}
+.cong{
+  display: flex;
+  flex-direction: column;
+  gap: .125rem;
+  width: 9.375rem;
+height: 2.3125rem;margin-left: -45px;
+
+
+}
+.h4-cong{
+  font-family: Inter;
+font-weight: 600;
+font-size: .875rem;
+line-height: 100%;
+letter-spacing: 0%;
+color: #04004D;
+}
+
+.cong-para{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #898E92;  
+>>>>>>> e1badf8eb99a8b7ae03360ab18c13f7ad9c98a31
 }
