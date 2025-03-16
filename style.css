@@ -8,8 +8,10 @@
 }
 body {
   background-color: black;
-  width: 100%;
+  width: 100rem;
   height: auto;
+  position: relative;
+  z-index: 1;
 }
 .container {
   width: 90rem;
@@ -18,7 +20,7 @@ body {
   margin: 0 auto;
 }
 .header-section {
-  background-color: tomato;
+  background-color: rgba(254, 38, 0, 0.856);
   width: 90rem;
   height: 7.0625rem;
   position: sticky;
@@ -160,6 +162,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 60px;
 }
 .card-info {
   display: flex;
@@ -169,6 +172,44 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.825rem;
+}
+.aside-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 33.0625rem;
+  height: 22.0625rem;
+}
+.h1-aside {
+  color: #04004d;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 3.125rem;
+  line-height: 3.875rem;
+  letter-spacing: 0%;
+}
+.para-aside {
+  color: #336c61;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  letter-spacing: 0%;
+}
+.read-more {
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+
+}
+.para-read {
+  color: #336c61;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  letter-spacing: 0%;
+  text-align: center;
 }
 .cong-card {
   display: flex;
@@ -375,7 +416,7 @@ body {
   min-height: 17.375rem;
   justify-content: space-around;
   align-items: center;
-  margin: 3.5rem auto;
+  margin: 0 auto;
 }
 .article {
   display: flex;
@@ -504,7 +545,7 @@ body {
   height: 41rem;
   justify-content: space-around;
   align-items: center;
-  margin: 100px auto;
+  margin: 0px auto;
 }
 .learning {
   display: flex;
@@ -789,81 +830,72 @@ body {
   width: 24.3125rem;
   height: 11.9375rem;
 }
-/* .basic-info{
-  z-index: 100;
-  position: relative;
-}
-.card-info::after{
-  content: url(./images/bg-texture/Group-15.png);
-  background-color: yellow;
-  background-position: bottom;
-  position: absolute;
-  left: 500px;
-  z-index: 1;
 
-} */
-.basic-info {
-  z-index: 100;
-  position: relative;
-}
-
-.info-texture::after {
-  content: url(./images/bg-texture/Group-15.png);
-  position: relative;
-  top: -310px;
-  right: -301px;
-  opacity: 0.7;
-  z-index: 10;
-}
-.learing-img {
-  z-index: 100;
-  position: relative;
+/* Texture Background Start  */
+.hero-texture {
+  height: 820px;
+  align-items: center;
+  background-image: url("./images/bg-texture/Group-1.png"),
+    url("./images/bg-texture/Group-2.png"),
+    url("./images/bg-texture/Group-0.png"),
+    url("./images/bg-texture/Group-5.png"),
+    url("./images/bg-texture/Group-3.png"),
+    url("./images/bg-texture/Group-4.png"),
+    url("./images/bg-texture/Group-6.png");
+  background-repeat: no-repeat;
+  background-position: left 0rem top 0rem, right 50rem top 0rem,
+    right 0rem bottom 15rem, left 25rem bottom 5rem, top 0rem right 0rem,
+    left 0rem bottom 0rem, right 10rem bottom 0rem;
 }
 
-.learning-texture-1::after {
-  content: url(./images/bg-texture/Group-17.png);
-  position: relative;
-  top: -836px;
-  right: -740px;
-  opacity: 0.7;
-  z-index: 10;
-}
-.learning-texture-2::after {
-  content: url(./images/bg-texture/Group-13.png);
-  position: relative;
-  top: -489px;
-  right: -1124px;
-  opacity: 0.7;
-  z-index: 10;
-}
-.learning-texture-3::after {
-  content: url(./images/bg-texture/Group-12.png);
-  position: relative;
-  top: -489px;
-  opacity: 0.7;
-  z-index: 10;
-}
-.sub-section {
-  z-index: 100;
-  position: relative;
+.basic-texture {
+  min-height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("./images/bg-texture/Group-15.png");
+  background-position: left 22rem top 17rem;
+  background-repeat: no-repeat;
 }
 
-.sub-texture-1::after {
-  content: url(./images/bg-texture/Group-19.png);
-  position: relative;
-  top: -186px;
-  right: -1054px;
-  opacity: 0.7;
-  z-index: 10;
+.article-texture {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  background-image: url("./images/bg-texture/Group-8.png"),
+    url("./images/bg-texture/Group-7.png"),
+    url("./images/bg-texture/Group-9.png");
+  background-repeat: no-repeat;
+  background-position: left 0rem top 10rem, right 0rem top 0rem,
+    right 0rem bottom 3rem;
 }
-.massage {
-  z-index: 10;
-  position: relative;
+
+.feature-texture {
+  height: 650px;
+  display: flex;
+  align-items: center;
+  background-image: url("./images/bg-texture/Group-10.png"),
+    url("./images/bg-texture/Group-11.png");
+  background-repeat: no-repeat;
+  background-position: left 0rem top 10rem, right 0rem bottom 4rem;
 }
-.sub-texture-2::after {
-  content: url(./images/bg-texture/Group-16.png);
-  position: relative;
-  top: -727px;
-  right: -1226px;
-  z-index: 100;
+
+.learning-texture {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  background-image: url("./images/bg-texture/Group-17.png"),
+    url("./images/bg-texture/Group-13.png");
+  background-position: right 33rem top .5rem, right 3rem bottom 3rem;
+  background-repeat: no-repeat;
 }
+
+.subscribe {
+  height: 650px;
+  display: flex;
+  align-items: center;
+  background-image: url("./images/bg-texture/Group-19.png"),
+    url("./images/bg-texture/Group-12.png");
+  background-repeat: no-repeat;
+  background-position: right 1.5rem bottom 0rem, left 0rem top 0rem;
+}
+
